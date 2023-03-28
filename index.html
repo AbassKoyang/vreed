@@ -1,0 +1,3028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vreed.com</title>
+    <script src="https://kit.fontawesome.com/e62e09dfbf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+    body{
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.075);
+       
+        
+
+
+    }
+    section{
+        margin: 0;
+        width: 100vw;
+        
+    }
+    .navbar{
+        margin: 0;
+        padding: 15px;
+        background-color: white;
+       
+
+    }
+.navbar ul{
+    margin: 0;
+    width: 100%;
+    height: 5vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    background: white;
+}
+ul li{
+    font-family: skyload, cursive;
+    color:black;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: small;
+}
+
+    .navbar ul .navbarli{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar ul .navbarli:hover{
+    color: #1fe046;
+}
+.secondnavbar{
+    width: 100%;
+    height: 10vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+padding-right: px;
+padding-left: px;
+margin-bottom: 15px;
+margin-right: 0;
+margin-left: 0;
+
+
+
+}
+.logo{
+    width: 150px;
+}
+
+.searchbutton{
+    color: white;
+    background-color:#19E942;
+    border: none;
+   font-size: medium;
+    padding: 10px;
+    font-weight: 600;
+    align-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px rgba(128, 128, 128, 0.411), -1px 1px 1px, 1px 1px 1px rgba(128, 128, 128, 0.411);
+}
+.searchbutton:hover{
+background-color: #07701c;
+}
+.searchinput{
+    height: 30px;
+    width: 500px;
+
+}
+.fa-cart-shopping{
+    font-size: 30px;
+    width: 60px;
+    color: black;
+    cursor: pointer;
+}
+.fa-cart-shopping:hover{
+    color: #19E942;
+}
+.fa-user{
+    font-size: 30px;
+    width: 60px;
+    color: black;
+    cursor: pointer;
+}
+.fa-user:hover{
+    color: #19E942;
+}
+.fa-bars{
+    font-size: 30px;
+    width: px;
+    color: black;
+    cursor: pointer;
+}
+.fa-bars:hover{
+    color: #19E942;
+}
+.landingpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    margin: 0;
+
+}
+
+.landingpage .left{
+    background-color: white;
+    width: calc(20% - 15px);
+    height: 70vh;
+    margin-left: 15px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.category{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0; 
+    margin: 0; 
+    padding: 0;
+    height: 35px;
+    width: 200px;
+    color: black;
+    font-size: large;
+    font-family: poppins, cursive;
+    cursor: pointer;
+}
+.category:hover{
+    color: #19E942;
+}
+.p{
+    font-size: 900;
+    color: black;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.landingpage .middle{
+    background-color: aqua;
+    width: calc(60% - 15px);
+    height: 70vh;
+    margin-left: 15px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.displaypic{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.right{
+    width: 20%;
+    height: 70vh;
+}
+.landingpage .insideright{
+    background-color: aqua;
+    width: calc(100% - 30px);
+    height: calc(35vh - 7.5px);
+    margin-right: 15px; 
+    border-radius: 7px;
+    margin-bottom: 7.5px;
+    margin-left: 15px;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+
+}
+.displaypic2{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.landingpage .insideright2{
+    background-color: aqua;
+    width: (100% - 30px);
+    height: calc(35vh - 7.5px);
+    margin-right: 15px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+    
+}
+h3{
+    font-family: skyload, cursive;
+    color: black;
+    margin-left: 15px;
+    margin-top: 50px;
+    width: 30vw;
+}
+.supermarket{
+    width: calc(100% - 30px);
+    height: 55vh;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+    
+
+}
+.supermarket1{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+    
+    
+}
+.supermarket1:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.supermarket2{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.supermarket2:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.supermarket3{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.supermarket3:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.supermarket4{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+.supermarket4:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.supermarket5{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.supermarket5:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.supermarket6{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.supermarket6:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.productimage{
+    width: 100%;
+    height: 90%;
+    border-radius: 7px;
+    margin-bottom: 0;
+    
+}
+
+.fa-star{
+    color: rgb(150, 91, 14);
+}
+.iconwrapper{
+    display: flex;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.productname{
+    color: black;
+    margin-bottom: 0px;
+    font-family: poppins, cursive;
+    font-weight: 500;
+    margin-top: 0px;
+}
+.pricetag{
+    margin-top: 0;
+    color: black;
+    font-family: poppins, cursive;
+    font-weight: 400;
+}
+.productwrapper{
+    margin-bottom: 5px;
+}
+.scrollbutton{
+border-radius: 50px;
+width: 50px;
+height: 50px;
+background-color: gray;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.scrollbuttonwrapper:hover{
+    transform: scale(1.1);
+
+}
+.fa-less-than{
+    color: white;
+}
+.scrollbutton2{
+border-radius: 50px;
+width: 50px;
+height: 50px;
+background-color: gray;
+display: flex;
+justify-content: center;
+align-items: center;
+transform: rotate(180deg);
+}
+.scrollbuttonwrapper2{
+    transition: all 1.0s ease 0s;
+}
+.scrollbuttonwrapper2:hover{
+    transform: scale(1.1);
+
+}
+
+.productimageoffice{
+    width: 100%;
+    height: 90%;
+    border-radius: 7px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.homeandoffice{
+    width: calc(100% - 30px);
+    height: 65vh;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+    
+
+}
+.homeandoffice1{
+    width: 200px;
+    height: 55vh;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    
+
+    
+    
+}
+.homeandoffice1:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.homeandoffice2{
+    width: 200px;
+    height: 55vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.homeandoffice2:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.homeandoffice3{
+    width: 200px;
+    height: 50vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.homeandoffice3:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.homeandoffice4{
+    width: 200px;
+    height: 55vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+.homeandoffice4:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.homeandoffice5{
+    width: 200px;
+    height: 55vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.homeandoffice5:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.homeandoffice6{
+    width: 200px;
+    height: 55vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.homeandoffice6:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+a{
+    text-decoration: none;
+}
+
+.healthandbeauty{
+    width: calc(100% - 30px);
+    height: 55vh;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+    
+
+}
+.healthandbeauty1{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+    
+    
+}
+.healthandbeauty1:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.healthandbeauty2{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.healthandbeauty2:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.healthandbeauty3{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.healthandbeauty3:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.healthandbeauty4{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+.healthandbeauty4:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.healthandbeauty5{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.healthandbeauty5:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.healthandbeauty6{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.healthandbeauty6:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.productimagehealth{
+    width: 100%;
+    height: 30vh;
+    border-radius: 7px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.phonesandtablets{
+    width: calc(100% - 30px);
+    height: 55vh;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+    
+
+}
+.phonesandtablets1{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+    
+    
+}
+.phonesandtablets1:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.phonesandtablets2{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.phonesandtablets2:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.phonesandtablets5{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.phonesandtablets5:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.phonesandtablets4{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+.phonesandtablets4:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.phonesandtablets5{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.phonesandtablets5:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.phonesandtablets6{
+    width: 200px;
+    height: 45vh;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    transition: all 1.0s ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.phonesandtablets6:hover{
+transform: scale(1.1);
+background-color: white;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.productimagephones{
+    width: 100%;
+    height: 30vh;
+    border-radius: 7px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.payments{
+    color: black;
+    font-family: skyload;
+    margin-top: 200px;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+.bigbox{
+    width: 35vw;
+    height: 45vh;
+    background: #96F4E0;
+    border-radius: 30px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins, cursive;
+    font-size: 40px;
+    font-weight: 800;
+    justify-content: center;
+    transition: all 1.0s ease 0s; 
+    cursor: pointer; 
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164); 
+}
+.bigbox:hover{
+ 
+}
+.fa-ticket{
+color: #00C9FB;
+cursor: pointer;
+}
+.fa-basketball{
+    cursor: pointer;
+color: #FFC74F;
+}
+
+.bigbox2{
+    width: 35vw;
+    height: 45vh;
+    background: #FFD78D;
+    border-radius: 30px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins, cursive;
+    font-weight: 800;
+    font-size: 40px;
+    justify-content: center;
+    transition: all 1.0s ease 0s;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.bigbox2:hover{
+    
+}
+
+.bigboxcontainer{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+.middleboxcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.middlebox{
+    height: 25vh;
+    width: 40vw;
+    background-color: #F8F9FA;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: black;  
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: poppins, cursive;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+
+}
+.middlebox:hover{
+    background-color: #96F4E0;
+}
+.fa-tv{
+color: #7D4FFF;
+}
+.fa-bolt{
+    color: #1DCE9F;
+}
+.threeboxescontainer{
+    display:flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.threeboxes{
+    background-color: #F8F9FA;
+    border-radius: 20px;
+    width: 20vw;
+    height: 30vh;
+    margin-top: 10px;
+    cursor: pointer;
+    color: black;
+    padding: 20px;
+    font-family: poppins, cursive;
+    font-weight: 550;
+    font-size: 15px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+ 
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+}
+.threeboxes:hover{
+    background-color:  #96F4E0;
+}
+.threeboxes2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+}
+.threeboxes2:hover{
+    background-color:  #96F4E0;
+}
+.fa-brands{
+    font-size: 50px;
+}
+.fa-hotel{
+    font-size: 50px;
+}
+.fa-book{
+    font-size: 50px;
+}
+.fa-building-columns{
+    font-size: 50px;
+}
+.fa-credit-card{
+    font-size: 50px;
+}
+.fa-money-bill-trend-up{
+    font-size: 50px;
+}
+.fa-synagogue{
+    font-size: 50px;
+}
+.fa-notes-medical{
+    font-size: 50px;
+}
+.fa-file-invoice-dollar{
+    font-size: 50px;
+}
+.fa-money-bill-1-wave{
+    font-size: 50px;
+}
+.fa-money-bill{
+    font-size: 50px;
+}
+.fa-ticket-simple{
+    font-size: 50px;
+}
+.logisticsinfocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+.logisticsinfoi{
+    width: 27vw;
+    height: 40vh;
+    background-color: white;
+    position: absolute; 
+    right: 30px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.logisticsinfoii{
+    width: 27vw;
+    height: 40vh;
+    background-color: white;
+    position: absolute;
+    border-radius: 7px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logisticsinfoiii{
+    width: 27vw;
+    height: 40vh;
+    background-color: white;
+    position: absolute;
+    left:30px;
+    border-radius: 7px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-motorcycle{
+    font-size: 50px;
+    color: #1fe046;
+}
+.fa-truck-fast{
+    font-size: 50px;
+    color: #1fe046;
+}
+.fa-warehouse{
+    font-size: 50px;
+    color: #1fe046;
+}
+
+.truckimage{
+    width: 100vw;
+    position: relative;
+    
+    
+}
+.logisticscontactcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 300px;
+}
+.logisticscontactcontainer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logisticscontact{
+    width: 30vw;
+    height: 15vh;
+    background-color:  #1fe046;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;   
+}
+.logisticscontact:hover{
+    background-color: #07701c;
+}
+.logisticscontact2:hover{
+    background-color: #07701c;
+}
+.fa-map-location-dot{
+    font-size: 40px;
+    color: white;
+}
+.fa-phone{
+    font-size: 40px;
+    color: white;
+}
+.fa-file-signature{
+    font-size: 40px;
+    color: white;
+}
+.fa-user-plus{
+    font-size: 40px;
+    color: white;
+}
+.logisticscontact2{
+    width: 30vw;
+    height: 15vh;
+    margin-top: 30px;
+    background-color: #1fe046;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    
+}
+.span4{
+    color: black;
+    font-family: poppins, cursive;
+    font-weight: 300;
+    text-align: center;
+    font-size: small;
+
+}
+.vreedlogistics{
+    color: black;
+    font-family: poppins, cursive;
+    font-weight: 600;
+    text-align: center;
+    font-size: medium;
+    position: absolute;
+    right: 10px;
+
+}
+span{
+    color: black;
+    font-family: poppins, cursive;
+    font-weight: 600;
+    text-align: center;
+    font-size: larger;
+
+}
+.logisticstext{
+    font-family: poppins, cursive;
+    font-size: small;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+.contacts{
+    font-family: poppins, cursive;
+    color: white;
+    cursor: pointer;
+
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle{
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    background-color: #E0DADA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cartimage{
+    width: 20vw;
+}
+.carttext{
+    font-family: poppins, cursive;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px;
+
+}
+.carttext2{
+    font-family: poppins, cursive;
+    font-size: larger;
+    color: black;
+    margin-top: 0;
+
+}
+.startshopping{
+    margin-top: 15px;
+width: 20vw;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1fe046;
+cursor: pointer;
+transition: all 0.5s;
+}
+.startshopping:hover{
+    transform: scale(1.1);
+}
+.startshopping2{
+font-family: skyload, cursive; 
+color: white;  
+
+}
+.cartwrapper{
+    background-color: white;
+    padding: 50px;
+    width: 80vw;
+    border-radius: 30px;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.abass{
+    width: 100px;
+    border-radius: 100px;
+    height: 100px;
+}
+.walletwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.username{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: poppins, cursive;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.userid{
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: poppins, cursive;
+    margin-left: 20px;
+}
+
+.walletwrapper .fa-less-than{
+    color: rgba(0, 0, 0, 0.452);
+    rotate: 270deg;
+    margin-left: 10px;
+}
+.fa-pen{
+    color:rgba(0, 0, 0, 0.452) ;
+}
+.fa-square-check{
+    color: rgba(0, 0, 0, 0.452);
+    font-size: 30px;
+}
+.lessthanwrapper{
+    width: 30px;
+    height: 30px;
+    background-color: #E0DADA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.penwrapper{
+    width:30px;
+    height: 30px;
+    background-color: #E0DADA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.iconswrapper{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 300px;
+
+}
+.userdetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mainwalletwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    width: 80vw;
+    border-radius: 30px;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.164),  5px 2px 5px rgba(128, 128, 128, 0.164);
+    margin-bottom: 80px;
+    
+}
+.mainwalletwrapper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.explore{
+    color: black;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: poppins, cursive;
+}
+.deceiver{
+    background-color: #E0DADA;
+    width: 600px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.input2{
+    background-color: #E0DADA;
+    width: 500px;
+    height: 50px;
+    border: none;
+    stroke: none;
+    outline: none;
+
+
+}
+.input2wrapper{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #1fe046;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.fa-magnifying-glass{
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.fa-eye{
+    color: rgba(0, 0, 0, 0.856);
+    font-size: 25px;
+    margin-right: 650px;
+    cursor: pointer;
+}
+.estimatedbalance{
+    color: black;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: lighter;
+    font-family: poppins, cursive;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.estimatedbalancewrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    
+}
+.vrc{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-weight: 500;
+    color: black;
+    margin-top: 5px;
+    font-family: poppins, cursive;
+}
+.balance{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: poppins, cursive;
+    color: rgba(0, 0, 0, 0.664);
+    margin-top: 3px;
+}
+.cashout{
+    color: white;
+    font-family: poppins, cursive;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+.convert:hover{
+    background-color: #0eaf2f;
+}
+.convert{
+    width: 30vw;
+    height: 15vh;
+    background-color:  #1fe046;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.coin{
+    width: 4vw;
+    margin: 18px;
+
+}
+.fa-sack-dollar{
+    font-size: 50px;
+    margin: 18px;
+    color: #FFD700;
+
+}
+.fa-arrow-up{
+    font-size: 30px;
+    color: #1fe046;
+    margin-left: 10px;
+}
+.backtotop{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: grey;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.aboutwrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.about{
+    width: 80vw;
+    height: 100%;
+    background-color: white;
+    
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.abouttext{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'poppins';
+}
+.contactus{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-top: 0;
+   
+}
+.contactus2{
+    width: 80vw;
+    height: 20vh;
+    background-color: white;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.span2{
+    color: black;
+    font-family: poppins, cursive;
+    font-weight: 600;
+    text-align: center;
+    font-size: 50px; 
+    margin-bottom: 10px;
+}
+.span3{
+    color: black;
+    font-family: poppins, cursive;
+    font-weight: 600;
+    text-align: center;
+    font-size: 50px; 
+    margin-bottom: 5px;
+}
+.learnmorewrapper{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #1fe046;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.learnmorewrapper:hover{
+background-color: #1fe046;
+}
+.learnmore{
+    font-size: 25px;
+    font-family: 'poppins';
+    cursor: pointer;
+    color: black;
+}
+.contacticon1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'poppins';
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.fa-envelope{
+    font-size: 50px;
+    margin-left: 5px;
+    margin-right: 0;
+    
+}
+.contactuswrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.additionaltext{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'poppins';
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+    </style>
+</head>
+<body>
+    <section>
+        <nav id="navlink" class="navbar">
+            <ul>
+                <li><a href="#landingpagelink" class="navbarli">Home</a> </li>
+                <li><a href="#paymentslink" class="navbarli">Payments</a> </li>
+                <li><a href="#logisticslink" class="navbarli">Logistics</a> </li>
+                <li><a href="#walletlink" class="navbarli">Wallet</a> </li>
+                <li><a href="#aboutlink" class="navbarli">About</a> </li>
+                <li><a href="#contactuslink" class="navbarli">Contact Us</a> </li>
+                
+            </ul>
+
+        </nav>
+
+        <nav class="secondnavbar">
+           <img class="logo" src="../VREED RESOURCES/vreed main logo.png" alt="vreed logo">
+           <div class="searchbar"><input class="searchinput" type="text" placeholder="Search products, brand and categories">
+            <button class="searchbutton">Search</button></div>
+            <div class="navicons">
+                <a href="#cart2"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <div  id="landingpagelink" class="landingpage">
+            <div class="left">
+                <a href="#supermarketlink"><div class="category">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    <p>Supermarket</p>
+                </div></a>
+                <a href="#homeandofficelink"><div class="category">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home & Office</p>
+                </div></a>
+                <a href="#healthandbeautylink"><div class="category">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <p>Health & Beauty</p>
+                </div></a>
+                <a href="#phonesandtabletslink"><div class="category">
+                    <i class="fa-solid fa-mobile"></i>
+                    <p>Phones & Tablets</p>
+                </div></a>
+                <a href="#electronicslink"><div class="category">
+                    <i class="fa-solid fa-blender"></i>
+                    <p>Electronics</p>
+                </div></a>
+                
+                <a href="#fashionlink"><div class="category">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <p>Fashion</p>
+                </div></a>
+                <a href="#gaminglink"><div class="category">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <p>Gaming</p>
+                </div></a>
+                <a href="#babyproductslink"><div class="category">
+                    <i class="fa-solid fa-baby-carriage"></i>
+                    <p>Baby Products</p>
+                </div></a>
+                <a href="#computinglink">
+                    <div class="category">
+                        <i class="fa-solid fa-computer"></i>
+                        <p>Computing</p>
+                    </div>
+                </a>
+                <a href="#automobileslink"><div class="category">
+                    <i class="fa-solid fa-car"></i>
+                    <p>Automobiles</p>
+                </div></a>
+                <a href="#sportinggoodslink">
+                    <div class="category">
+                        <i class="fa-solid fa-futbol"></i>
+                        <p>Sporting Goods</p>
+                    </div>
+                </a>
+                <a href=""><div class="category">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <p>Other Categories</p>
+                </div>
+                </a>
+            </div>
+            <div class="middle">
+                <img class="displaypic" src="../VREED RESOURCES/Asset 12vreed main second flyer.jpg" alt="flyer">
+            </div>
+            <div class="right">
+                <div class="insideright">
+                    <img class="displaypic2" src="../VREED RESOURCES/Asset 17vreed main flyer.jpg" alt="flyer">
+                </div>
+                <div class="insideright2">
+                    <img class="displaypic2" src="../VREED RESOURCES/Asset 17vreed main flyer.jpg" alt="flyer">
+                </div>
+            </div>
+        </div>
+        <h3 id="supermarketlink">supermarket</h3>
+        <div class="supermarket">
+            <div class="scrollbuttonwrapper">
+                <div class="scrollbutton">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+            <div class="supermarket1">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/BAMA.jpeg" alt="" class="productimage">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">Bama mayonaise</p>
+                <p class="pricetag">₦ 1,000</p>
+            </div>
+            <div class="supermarket2">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/1.jpg" alt="" class="productimage">
+                </div>
+                <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                
+                </div>
+                <p class="productname">Indomie</p>
+                <p class="pricetag">₦ 1,500</p>
+            </div>
+            <div class="supermarket5">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/SPAGHETTI.jpeg" alt="" class="productimage">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                    </div>
+                    <p class="productname">Honeywell Spag..</p>
+                    <p class="pricetag">₦ 7000</p>
+            </div>
+                
+            <div class="supermarket4">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/SPAGHETTI.jpeg" alt="" class="productimage">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="productname">Chivita Jui..</p>
+                    <p class="pricetag">₦ 1000</p>
+            </div>
+            <div class="supermarket5">
+                <div class="productwrapper">
+                <img src="../VREED RESOURCES/chivita.jpeg" alt="" class="productimage">
+            </div>
+            <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="productname">Power oil</p>
+            <p class="pricetag">₦ 2,000</p>
+        </div>
+            <div class="supermarket6">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/YOGHURT.jpeg" alt="" class="productimage">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Greek Yoghurt</p>
+                <p class="pricetag">₦ 5,000</p>
+            </div>
+            <div class="scrollbuttonwrapper2">
+                <div class="scrollbutton2">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+        </div>
+        <h3 id="homeandofficelink">Home & Office</h3>
+        <div class="homeandoffice">
+            <div class="scrollbuttonwrapper">
+                <div class="scrollbutton">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+            <div class="homeandoffice1">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/departmwntoffice.webp" alt="" class="productimageoffice">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Departmental Fur..</p>
+                <p class="pricetag">₦ 500,000</p>
+            </div>
+            <div class="homeandoffice2">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/OFFICE 2.webp" alt="" class="productimageoffice">
+                </div>
+                <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname"> Mini Office Fur..</p>
+                <p class="pricetag">₦ 80,000</p>
+            </div>
+            <div class="homeandoffice5">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/pexels-photo-2528118.webp" alt="" class="productimageoffice">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="productname">Mini Office Fur..</p>
+                    <p class="pricetag">₦ 70,000</p>
+            </div>
+                
+            <div class="homeandoffice4">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/SITING ROOM FURNITURE.jpeg" alt="" class="productimageoffice">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="productname">Sitting Room Set</p>
+                    <p class="pricetag">₦ 100,000</p>
+            </div>
+            <div class="homeandoffice5">
+                <div class="productwrapper">
+                <img src="../VREED RESOURCES/SOFA.webp" alt="" class="productimageoffice">
+            </div>
+            <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="productname">Sofa</p>
+            <p class="pricetag">₦ 30,000</p>
+        </div>
+            <div class="homeandoffice6">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/departmwntoffice.webp" alt="" class="productimageoffice">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Departmental Fur..</p>
+                <p class="pricetag">₦ 500,000</p>
+            </div>
+            <div class="scrollbuttonwrapper2">
+                <div class="scrollbutton2">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+        </div>
+        <h3 id="healthandbeautylink">Health & Beauty</h3>
+        <div class="healthandbeauty">
+            <div class="scrollbuttonwrapper">
+                <div class="scrollbutton">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+            <div class="healthandbeauty1">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/dark powder.jpg" alt="" class="productimagehealth">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">Dark Powder</p>
+                <p class="pricetag">₦ 5,000</p>
+            </div>
+            <div class="healthandbeauty2">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/laura lucifer.jpg" alt="" class="productimagehealth">
+                </div>
+                <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">laura Lucifer..</p>
+                <p class="pricetag">₦ 7,000</p>
+            </div>
+            <div class="healthandbeauty5">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/LIPSTICK AND MIRROR.webp" alt="" class="productimagehealth">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    
+                    </div>
+                    <p class="productname">Lipstick and mirr..</p>
+                    <p class="pricetag">₦ 4,000</p>
+            </div>
+                
+            <div class="healthandbeauty4">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/HAND SANITIZER.jpeg" alt="" class="productimagehealth">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="productname">Hand Sanitizer</p>
+                    <p class="pricetag">₦ 1,000</p>
+            </div>
+            <div class="healthandbeauty5">
+                <div class="productwrapper">
+                <img src="../VREED RESOURCES/MANY LIPSTICS.webp" alt="" class="productimagehealth">
+            </div>
+            <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="productname">Lipstick Set</p>
+            <p class="pricetag">₦ 10,000</p>
+        </div>
+            <div class="healthandbeauty6">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/THE ORDINARY CREAM.jpeg" alt="" class="productimagehealth">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">The Ordinary Cre..</p>
+                <p class="pricetag">₦ 1,000</p>
+            </div>
+            <div class="scrollbuttonwrapper2">
+                <div class="scrollbutton2">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+        </div>
+        <h3 id="phonesandtabletslink">Phones & Tablets</h3>
+        <div class="phonesandtablets">
+            <div class="scrollbuttonwrapper">
+                <div class="scrollbutton">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+            <div class="phonesandtablets1">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/galaxy-s22-ultra_highlights_colors_burgundy_front.webp" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+                </div>
+                <p class="productname">Galaxy S22 ultr..</p>
+                <p class="pricetag">₦ 700,000</p>
+            </div>
+            <div class="phonesandtablets2">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/galaxy-z-fold4_highlights_kv.webp" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Galazy Z-fold4</p>
+                <p class="pricetag">₦ 900,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/iphone-13-model-unselect-gallery-2-202207_GEO_US.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="productname">Iphone !3</p>
+                    <p class="pricetag">₦ 700,000</p>
+            </div>
+                
+            <div class="phonesandtablets4">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/iphone-14-pro-model-unselect-gallery-2-202209_GEO_US.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="productname">Iphone 14</p>
+                    <p class="pricetag">₦ 900,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                <img src="../VREED RESOURCES/reno5_1920-bb7e60.jpg.webp" alt="" class="productimagephones">
+            </div>
+            <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="productname">Oppo Reno5</p>
+            <p class="pricetag">₦ 200,000</p>
+        </div>
+            <div class="phonesandtablets6">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/yecno.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Tecno Phantom..</p>
+                <p class="pricetag">₦ 1,000</p>
+            </div>
+            <div class="scrollbuttonwrapper2">
+                <div class="scrollbutton2">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+        </div>
+        <h3 id="electronicslink">Electronics</h3>
+        <div class="phonesandtablets">
+            <div class="scrollbuttonwrapper">
+                <div class="scrollbutton">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+            <div class="phonesandtablets1">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/sony refridgerator.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Sony Refridgerator</p>
+                <p class="pricetag">₦ 300,000</p>
+            </div>
+            <div class="phonesandtablets2">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/sony-mhcv02-high-power-audio-system-p16123-45887_image.jpg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Sony-mhcv02-hi..</p>
+                <p class="pricetag">₦ 150,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/scanfrost food processor.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="productname">Scanfrost Food Pro..</p>
+                    <p class="pricetag">₦ 80,000</p>
+            </div>
+                
+            <div class="phonesandtablets4">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/samsung hi tech fridge.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="productname">samsung Hi-Tech..</p>
+                    <p class="pricetag">₦ 400,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                <img src="../VREED RESOURCES/LOGIK Portable DAB=.jpeg" alt="" class="productimagephones">
+            </div>
+            <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="productname">LOGIK Portable DAB</p>
+            <p class="pricetag">₦ 7,000</p>
+        </div>
+            <div class="phonesandtablets6">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/lg oled rollable tv.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">LG Oled rollable TV</p>
+                <p class="pricetag">₦ 325,000</p>
+            </div>
+            <div class="scrollbuttonwrapper2">
+                <div class="scrollbutton2">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+        </div>
+        <h3 id="fashionlink">Fashion</h3>
+        <div class="phonesandtablets">
+            <div class="scrollbuttonwrapper">
+                <div class="scrollbutton">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+            <div class="phonesandtablets1">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/lv stilettos red bottom michigan.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">LV stilettos red..</p>
+                <p class="pricetag">₦ 70,000</p>
+            </div>
+            <div class="phonesandtablets2">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/Gucci Python Medium Dionysus Shoulder Bag.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Gucci Python Med..</p>
+                <p class="pricetag">₦ 90,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/louis vuitton alma bag.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="productname">LV Alma Bag </p>
+                    <p class="pricetag">₦ 50,000</p>
+            </div>
+                
+            <div class="phonesandtablets4">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/Gucci Suede RE(BELLE) Medium Top Handle Tote Bag.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="productname">Gucci Suede REBE..</p>
+                    <p class="pricetag">₦ 50,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                <img src="../VREED RESOURCES/nike kicks.jpeg" alt="" class="productimagephones">
+            </div>
+            <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="productname">Nike Air 36..</p>
+            <p class="pricetag">₦ 30,000</p>
+        </div>
+            <div class="phonesandtablets6">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/lv brown kicks.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">LV Brown Sneakers</p>
+                <p class="pricetag">₦ 25,000</p>
+            </div>
+            <div class="scrollbuttonwrapper2">
+                <div class="scrollbutton2">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+        </div>
+        <h3 id="gaminglink">Gaming</h3>
+        <div class="phonesandtablets">
+            <div class="scrollbuttonwrapper">
+                <div class="scrollbutton">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+            <div class="phonesandtablets1">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/Alienware-610m-wired-and-wirelss-Gaming-Mouse.jpg.webp" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Alienware-610m-wi</p>
+                <p class="pricetag">₦ 10,000</p>
+            </div>
+            <div class="phonesandtablets2">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/Razer Enki Gaming Chair.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Razer Enki Gami..</p>
+                <p class="pricetag">₦ 25,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/Stgyianforce-Professional-Kit-960x600.jpg.webp" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="productname">Stgyianforce-Prof..</p>
+                    <p class="pricetag">₦ 15,000</p>
+            </div>
+                
+            <div class="phonesandtablets4">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/xbox-series-x-gaming-console.jpg.webp" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="productname">Xbox-series-x-ga..</p>
+                    <p class="pricetag">₦ 100,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                <img src="../VREED RESOURCES/gamesir-f7-claw-tablet-game-controller-960x600.jpg.webp" alt="" class="productimagephones">
+            </div>
+            <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="productname">Gamesir-f7-claw..</p>
+            <p class="pricetag">₦ 50,000</p>
+        </div>
+            <div class="phonesandtablets6">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/gamesir-t4-mini-controller.jpg.webp" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Gamesir-t4-mini..</p>
+                <p class="pricetag">₦ 10,000</p>
+            </div>
+            <div class="scrollbuttonwrapper2">
+                <div class="scrollbutton2">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+        </div>
+        <h3 id="babyproductslink">Baby Products</h3>
+        <div class="phonesandtablets">
+            <div class="scrollbuttonwrapper">
+                <div class="scrollbutton">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+            <div class="phonesandtablets1">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/dohm natural sound machine.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">Dohm Natural..</p>
+                <p class="pricetag">₦ 30,000</p>
+            </div>
+            <div class="phonesandtablets2">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/Flip 4-in-1convertible carrier.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="productname">Flip 4-in-1conver..</p>
+                <p class="pricetag">₦ 15,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/infant car seat and stroller.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="productname">Infant Car Seat</p>
+                    <p class="pricetag">₦ 20,000</p>
+            </div>
+                
+            <div class="phonesandtablets4">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/keyfit35  infant car seat.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="productname">Keyfit35  Infant</p>
+                    <p class="pricetag">₦ 30,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                <img src="../VREED RESOURCES/option+ bottle feeding set.jpeg" alt="" class="productimagephones">
+            </div>
+            <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="productname">Option+ Bottle</p>
+            <p class="pricetag">₦ 5,000</p>
+        </div>
+            <div class="phonesandtablets6">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/breeze plus playard.jpeg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">Breeze Plus playard</p>
+                <p class="pricetag">₦ 15,000</p>
+            </div>
+            <div class="scrollbuttonwrapper2">
+                <div class="scrollbutton2">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+        </div>
+        <h3 id="computinglink">Computing</h3>
+        <div class="phonesandtablets">
+            <div class="scrollbuttonwrapper">
+                <div class="scrollbutton">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+            <div class="phonesandtablets1">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/asus-rog-zephyrus-g14-laptop-300x200.jpg.webp" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">Asus-Rog-Zep..</p>
+                <p class="pricetag">₦ 400,000</p>
+            </div>
+            <div class="phonesandtablets2">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/dell-xps-laptop-300x200.jpg.webp" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">Dell-xps-laptop..</p>
+                <p class="pricetag">₦ 390,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/lenovo-legion-y540-laptop-960x600.jpg.webp" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="productname">lenovo-legion-y540</p>
+                    <p class="pricetag">₦ 350,000</p>
+            </div>
+                
+            <div class="phonesandtablets4">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/lenovo-thinkpad-x1-extreme-960x600.jpg.webp" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="productname">Lenovo-thinkpad-x1</p>
+                    <p class="pricetag">₦ 350,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                <img src="../VREED RESOURCES/microsoft-surface-book-3-1-960x600.jpg.webp" alt="" class="productimagephones">
+            </div>
+            <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="productname">Microsoft-Suro..</p>
+            <p class="pricetag">₦ 400,000</p>
+        </div>
+            <div class="phonesandtablets6">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/YSAGi-Multifunctional-Office-Desk-Pad.jpg.webp" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">YSAGi-Multifun..</p>
+                <p class="pricetag">₦ 20,000</p>
+            </div>
+            <div class="scrollbuttonwrapper2">
+                <div class="scrollbutton2">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+        </div>
+        <h3 id="automobileslink">Automobiles</h3>
+        <div class="phonesandtablets">
+            <div class="scrollbuttonwrapper">
+                <div class="scrollbutton">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+            <div class="phonesandtablets1">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/ashtrays_300x300.png" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">ashtrays_300x300</p>
+                <p class="pricetag">₦ 10,000</p>
+            </div>
+            <div class="phonesandtablets2">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/Floor-Mats-300x300.jpg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">Floor-Mats</p>
+                <p class="pricetag">₦ 7,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/Grease-&-Lubricants-300x300.jpg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="productname">Grease-&-Lubricant</p>
+                    <p class="pricetag">₦ 10,000</p>
+            </div>
+                
+            <div class="phonesandtablets4">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/Seat-Covers-300x300.jpg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="productname">Seat-Cover</p>
+                    <p class="pricetag">₦ 15,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                <img src="../VREED RESOURCES/tyre-rims-300x300.jpg" alt="" class="productimagephones">
+            </div>
+            <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="productname">Tyre-Rims</p>
+            <p class="pricetag">₦ 12,000</p>
+        </div>
+            <div class="phonesandtablets6">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/Steering-Wheel-&-Accessories-300x300.jpg" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">Steering-Wheel</p>
+                <p class="pricetag">₦ 5,000</p>
+            </div>
+            <div class="scrollbuttonwrapper2">
+                <div class="scrollbutton2">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+        </div>
+        <h3 id="sportinggoodslink">Sporting Goods</h3>
+        <div class="phonesandtablets">
+            <div class="scrollbuttonwrapper">
+                <div class="scrollbutton">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+            <div class="phonesandtablets1">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/accessories_260x144.png" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">Accessories set</p>
+                <p class="pricetag">₦ 10,000</p>
+            </div>
+            <div class="phonesandtablets2">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/cycling_260x144.png" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">Bicycle</p>
+                <p class="pricetag">₦ 30,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/football_260x144.png" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="productname">Football & Adidas..</p>
+                    <p class="pricetag">₦ 20,000</p>
+            </div>
+                
+            <div class="phonesandtablets4">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/footwear_260x144.png" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="productname">Nike Jogging ki..</p>
+                    <p class="pricetag">₦ 15,000</p>
+            </div>
+            <div class="phonesandtablets5">
+                <div class="productwrapper">
+                <img src="../VREED RESOURCES/tech_260x144.png" alt="" class="productimagephones">
+            </div>
+            <div class="iconwrapper">
+                <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="productname">Work Out Wrist..</p>
+            <p class="pricetag">₦ 5,000</p>
+        </div>
+            <div class="phonesandtablets6">
+                <div class="productwrapper">
+                    <img src="../VREED RESOURCES/workout_260x144.png" alt="" class="productimagephones">
+                </div>
+                <div class="iconwrapper">
+                    <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="productname">Work-Out Tools</p>
+                <p class="pricetag">₦ 1,000</p>
+            </div>
+            <div class="scrollbuttonwrapper2">
+                <div class="scrollbutton2">
+                    <i class="fa-solid fa-less-than"></i>
+                </div>
+            </div>
+        </div>
+        <p id="paymentslink" class="payments">Payments</p>
+
+        <div class="bigboxcontainer">
+            <div class="bigbox">
+                <i class="fa-solid fa-ticket"></i>
+                Airtime
+            </div>
+        <div class="bigbox2">
+            <i class="fa-solid fa-basketball"></i>
+            Betting
+        </div>
+        </div>
+        <div class="middleboxcontainer">
+            <div class="middlebox">
+                <i class="fa-solid fa-tv"></i>
+                Cable TV
+            </div>
+            <div class="middlebox">
+                <i class="fa-solid fa-bolt"></i>
+                Elecricity
+            </div>
+        </div>
+        <div class="threeboxescontainer">
+            <div class="threeboxes">
+                <div class="threeboxes2">
+                    <i class="fa-brands fa-edge-legacy"></i>
+                    <p>Internet services</p>
+                </div>
+            </div>
+            <div class="threeboxes">
+                <div class="threeboxes2">
+                    <i class="fa-solid fa-book"></i>
+                    <p class="threeboxesname">School & Exams</p>
+                </div>
+            </div>
+            <div class="threeboxes">
+                <div class="threeboxes2">
+                    <i class="fa-solid fa-hotel"></i>
+                    <p>Travel & Hotel</p>
+                </div>
+            </div>
+            
+        </div>
+        
+            
+        </div>
+        <div class="threeboxescontainer">
+            <div class="threeboxes">
+                <i class="fa-solid fa-building-columns"></i>
+                    <p>Government Payments</p>
+            </div>
+            <div class="threeboxes">
+                <i class="fa-solid fa-credit-card"></i>
+                    <p>Credit and Loans</p>
+            </div>
+            <div class="threeboxes">
+                <i class="fa-solid fa-money-bill-trend-up"></i>
+                    <p>BankOne MFBs</p>
+            </div>
+            
+        </div>
+        <div class="threeboxescontainer">
+            <div class="threeboxes">
+                <i class="fa-solid fa-synagogue"></i>
+                    <p>Religious</p>
+            </div>
+            <div class="threeboxes">
+                <i class="fa-solid fa-notes-medical"></i>
+                    <p>Health Insurance</p>
+            </div>
+            <div class="threeboxes">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <p>Invoice Payment</p>
+            </div>
+            
+        </div>
+        <div class="threeboxescontainer">
+            <div class="threeboxes">
+                <i class="fa-solid fa-money-bill-1-wave"></i>
+                    <p>Tax Payment</p>
+            </div>
+            <div class="threeboxes">
+                <i class="fa-solid fa-ticket-simple"></i>
+                    <p>Event Tickets</p>
+            </div>
+            <div class="threeboxes">
+               <i class="fa-solid fa-money-bill"></i>
+                    <p>Prepaid Card</p>
+            </div>
+            
+        </div>
+        <p id="logisticslink" class="payments">Logistics</p>
+       <div class="logistics">
+        <img class="truckimage" src="../VREED RESOURCES/image 1.png" alt="">
+
+       
+        <div class="logisticsinfocontainer">
+          <div class="logisticsinfoi">
+            
+            <i class="fa-solid fa-motorcycle"></i>
+            <p class="logisticstext"><span>PACKAGE SHIPMENT</span><br>
+We deliver your packages door-to-door across the entire country at unbeatable rates.
+Our country-wide network of professional delivery associates treat your packages like it was theirs.</p>
+          </div>
+          <div class="logisticsinfoii">
+            <i class="fa-solid fa-truck-fast"></i>
+            <p class="logisticstext"><span>LINE HAULAGE</span><br>
+                Our line haulage service delivers "Full Truck Load" and "Less than Truck Load" across the entire country. We deliver to major cities and upcountry locations regularly to ensure speedy delivery of your goods.</p>
+          </div>
+          <div class="logisticsinfoiii">
+            <i class="fa-solid fa-warehouse"></i>
+            <p class="logisticstext"><span>STORAGE</span><br>
+                We can store your goods across our network of distributed warehousing facilities across the country. We enable you reach your customer faster and more frequent by holding your goods nearer to your target market.
+                </p>
+
+          </div>
+        </div>
+       <div class="logisticscontactcontainer">
+        <div class="logisticscontact">
+            <i class="fa-solid fa-user-plus"></i>
+            <p class="contacts">
+                Sign Up Now!
+            </p>
+        </div>
+        <div class="logisticscontact">
+            <i class="fa-solid fa-phone"></i>
+            <p class="contacts">
+                Contact Us 
+            </p>
+        </div>
+      </div>
+      <div class="logisticscontactcontainer2">
+          <div class="logisticscontact2">
+            <i class="fa-solid fa-file-signature"></i>
+            <p class="contacts">
+                Make A Claim
+            </p>
+          </div>
+          <div class="logisticscontact2">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <p class="contacts">
+                Nearest drop-off location to You
+            </p>
+          </div>
+        </div>
+
+        <div class="cart" id="cart2">
+            <p class="payments">CART</p>
+            <div class="cartwrapper">
+                <div  class="circle">
+                    <img class="cartimage" src="../VREED RESOURCES/Group 43.png" alt="">
+                </div>
+                <p class="carttext">Your cart is empty!</p>
+                <p class="carttext2">Browse our categories and discover our best deals!</p>
+                <a class="cartlink" href="#supermarketlink">
+                    <div class="startshopping">
+                        <p class="startshopping2">
+                            start shopping
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <p  id="walletlink" class="payments">wallet</p>
+       <div class="mainwalletwrapper2">
+        <div class="mainwalletwrapper">
+            <div class="wallet">
+           
+            <div class="walletwrapper">
+                <div class="userdetails">
+                    <img class="abass" src="../VREED RESOURCES/anime.jpeg" alt="">
+                <div class="userwrapper">
+                    <p class="username">Abass koyang Ahmad</p>
+                    <p class="userid">User ID 60253904</p>
+            </div>
+                </div>
+            <div class="iconswrapper">
+                <i class="fa-solid fa-square-check"></i>
+            <div class="penwrapper">
+                <i class="fa fa-pen"></i>
+            </div>
+    
+          <div class="lessthanwrapper">
+            <i class="fa-solid fa-less-than"></i>
+          </div>
+    
+         </div>
+    
+           </div>
+           <p class="explore">Explore!</p>
+           <div class="deceiver">          
+             <input type="text" class="input2" placeholder="Coin, Function, Announcement....">
+            <div class="input2wrapper">
+             <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+           <div class="estimatedbalancewrapper">
+            <p class="estimatedbalance">Estimated Balance</p>
+            <i class="fa-solid fa-eye"></i>
+           </div>
+           <p class="vrc">1000.00 VRC</p>
+           <p class="balance">=₦2000.00</p>
+           <div class="logisticscontactcontainer">
+            <div class="convert"> <p class="cashout">Cash Out</p><i class="fa-solid fa-sack-dollar"></i></i></div>
+            <div class="convert">
+                 <p class="cashout">Convert Coin</p>
+                 <img class="coin" src="../VREED RESOURCES/Group 22.png" alt="">
+            </div>
+          </div>
+
+       </div>
+       <a href="#navlink">
+        <div class="backtotop">
+            <i class="fa-solid fa-arrow-up"></i>
+           </div>
+       </a>
+    </section>
+    <div class="aboutwrapper">
+        <div class="about">
+            <p class="abouttext">
+                <span class="span2">About Us</span>
+                <br>
+                Vreed is an E-commerce company that rewards its customers with Vreed Coins for purchases made on their website. Vreed Coins can be redeemed for discounts on future purchases, making shopping with Vreed a more cost-effective and rewarding experience.
+                Vreed is an excellent choice for customers who value affordability and convenience. In addition to Vreed Coins, the company offers competitive prices on a wide range of products, with fast and reliable shipping options.
+
+Furthermore, Vreed is committed to customer satisfaction, providing responsive and personalized customer service to ensure that all concerns and inquiries are addressed promptly.
+
+Overall, Vreed's innovative rewards system, competitive pricing, and customer-focused approach make it a compelling option for anyone seeking an efficient and cost-effective online shopping experience.   
+            </p>
+            <div class="learnmorewrapper">
+                <p class="learnmore">
+                    Learn More
+                </p>
+            </div>
+        </div>
+       </div>
+       <div class="contactuswrapper">
+        <div class="contactus2">
+            <span class="span3">Contact Us</span>
+            <p class="additionaltext">You can reach out to us via:</p>
+            <div class="contactus">
+                <div class="contacticon1">
+                    <i class="fa-brands fa-facebook" style="color: #14e047;"></i>
+                    <P class="socials">@vreedng</P>
+                </div>
+                <div class="contacticon1">
+                    <i class="fa-brands fa-instagram" style="color: #14e047;"></i>
+                    <P class="socials">@vreedng</P>
+                </div>
+                <div class="contacticon1">
+                    <i class="fa-brands fa-twitter" style="color: #14e046;"></i>
+                    <P class="socials">@vreedng</P>
+                </div>
+                <div class="contacticon1">
+                    <i class="fa-solid fa-envelope" style="color: #14e047;"></i>
+                    <P class="socials">@vreedng@gmail.com</P>
+                </div>
+                
+                
+               </div>
+           </div>
+       </div>
+</body>
+</html>
